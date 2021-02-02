@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color:hsl(37, 100%, 96%);
+}
+
+header {
+  background-color: palevioletred;
+  padding: 1.5rem;
+  width: 100%;
+  position: fixed;
+  height: 150px;
+  z-index: 10;
+  top: 0px;
+}
+
+#title {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#tagline {
+  color:lightgoldenrodyellow;
+  line-height: 1rem;
+}
+
+main {
+  position: relative;
+  top: 200px;
+}
+
+#lemon {
+  width: 300px;
+  margin: 30px auto;
+}
+
+#lemon img {
+  width: 128px;
+}
+#lemon figcaption {
+  color: gray;
+  font-size: small;
+}
+#lemon a {
+  color: gray;
+}
+
+#buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buttons-section button {
+  font-family: inherit;
+  font-weight: 700;
+  margin: 1rem;
+  font-size: 1.5rem;
+  width: 400px;
+  padding: 1rem;
+  color: white;
+  background-color:hsl(203, 50%, 60%);
+  border-radius: 10px;
+}
+
+.platform {
+  color:lightgoldenrodyellow;
+}
